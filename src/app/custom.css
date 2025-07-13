@@ -1,0 +1,110 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #F8F4EF;
+  color: #3E2E1F;
+  padding: 0;
+  height: 100%;
+
+    }
+
+    .page-wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .header {
+    
+      padding-bottom: 5px;
+      padding-top: 10px;
+      /* display: flex;
+      justify-content: space-between; */
+      align-items: center;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 4.0rem;
+      color: #3E2E1F; /* header + button color */
+      padding: 5px ;
+    }
+
+    .progress-container {
+      width: 50%;
+      background-color: #e0e0e0;
+      height: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 5px auto; /* Center the progress bar */
+    }
+
+    .progress-bar {
+      height: 100%;
+      background-color: #3d2b1f; /* Match your brand */
+      width: 40%; /* Progress: set dynamically with JS or inline */
+      transition: width 0.3s ease-in-out;
+    }
+
+     .question_section {
+    
+      padding-bottom: 5px;
+      padding-top: 20px;
+      /* display: flex;
+      justify-content: space-between; */
+      align-items: center;
+      text-align: center;
+    }
+    .question_section h1 {
+      font-size: 1.25rem;
+      color: #3E2E1F; /* header + button color */
+      padding: 0px ;
+    }
+
+    .content {
+      flex: 1;
+      background-color: #F8F4EF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 5px;
+      padding-top: 30px;
+    }
+
+    .footer {
+      background-color: #3E2E1F;/* footer + button color */
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      bottom: 0;
+    }
+
+    .footer button {
+      background-color: #3E2E1F;/* same as footer */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .footer button:hover {
+      background-color: #3E2E1F;
+    }
+
+    @media (max-width: 480px) {
+      .footer button {
+        padding: 10px 16px;
+        font-size: 14px;
+      }
+
+    }

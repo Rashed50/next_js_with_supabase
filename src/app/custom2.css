@@ -1,0 +1,65 @@
+ body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #efeae1;;
+    }
+
+    .header {
+      text-align: center;
+      padding: 30px 15px 10px;
+      background-color: #efeae1;
+      color: #3d2b1f;
+    }
+
+    .progress {
+      height: 20px;
+      background-color: #fff;
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .progress-bar {
+      background-color: #3d2b1f; /* Brand color */
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 15px;
+      text-align: center;
+      background-color: #efeae1;
+    }
+
+    .footer {
+      background-color: #3d2b1f;
+      padding: 15px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+
+    }
+
+    .footer button {
+      background-color: #fff;
+      color: #3d2b1f;
+      border: none;
+      padding: 5px 20px;
+      border-radius: 50px;
+    }
+    .footer_weiter {
+      background-color: #fff;
+      color: #3d2b1f;
+      border: none;
+      padding: 5px 5px;
+      border-radius: 20px;
+    }
+
+    
+
+    .footer button:hover {
+      background-color: #e0e0e0;
+    }
