@@ -22,6 +22,41 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
+### Install supabase database package
+
+First install the supabase and helper package
+ 
+ ```bash
+
+ npm install @supabase/supabase-js @supabase/ssr
+ 
+```
+
+### Set up environment variables
+
+Create a .env.local file in your project root directory.
+
+Fill in your NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY:
+
+ ```bash
+
+NEXT_PUBLIC_SUPABASE_URL = 'Your account subase url' 
+NEXT_PUBLIC_SUPABASE_ANON_KEY = 'Your Account Anon key'
+ 
+```
+
+For your better understanding I am giving demo data 
+
+ ```bash
+
+TIERLICH_PUBLIC_SUPABASE_PROJECT_URL= 'https://zokujhnfhgcdlfhbspic.supabase.co'
+TIERLICH_PUBLIC_SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpva3VqaG5maGdjZGxmaGJzcGljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI0MzQ0MjAsImV4cCI6MjA2ODAxMDQyMH0.VROqwLrLW9pIEgyAja-uCySLXTPgTRQdjDp2EwQ2xqI'
+TIERLICH_PUBLIC_SUPABASE_ADMIN_KEY= 'SUPABASE_SERVICE_KEY'
+ 
+```
+
+
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
